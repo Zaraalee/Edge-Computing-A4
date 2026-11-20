@@ -1,0 +1,76 @@
+Teacher ResNet-50 loaded (test top-1 66.47%), frozen
+KD settings: T = 4.0, alpha = 0.7 (soft) / 0.3 (hard), beta = 1.0 (features)
+MobileNetV2           2,351,972 parameters, hint 96 ch -> adapter -> 1024 ch
+SqueezeNet              779,684 parameters, hint 512 ch -> adapter -> 1024 ch
+EfficientNet-Lite0    3,499,108 parameters, hint 112 ch -> adapter -> 1024 ch
+Epoch  1/15  MobileNetV2          loss 5.661 (hard 4.015, soft 1.366, feat 3.500)  train  8.61%  test top-1 16.44%  top-5 42.14%
+Epoch  1/15  SqueezeNet           loss 5.575 (hard 4.173, soft 1.390, feat 3.350)  train  6.16%  test top-1 12.37%  top-5 36.91%
+Epoch  1/15  EfficientNet-Lite0   loss 5.645 (hard 4.019, soft 1.368, feat 3.482)  train  8.23%  test top-1 16.30%  top-5 42.82%
+  epoch time 11.3 min
+Epoch  2/15  MobileNetV2          loss 2.423 (hard 3.364, soft 1.174, feat 0.592)  train 19.21%  test top-1 24.14%  top-5 53.28%
+Epoch  2/15  SqueezeNet           loss 2.472 (hard 3.534, soft 1.212, feat 0.563)  train 16.21%  test top-1 20.58%  top-5 51.36%
+Epoch  2/15  EfficientNet-Lite0   loss 2.419 (hard 3.359, soft 1.172, feat 0.590)  train 19.11%  test top-1 22.69%  top-5 52.64%
+  epoch time 12.1 min
+Epoch  3/15  MobileNetV2          loss 2.177 (hard 2.980, soft 1.027, feat 0.564)  train 26.49%  test top-1 29.83%  top-5 60.67%
+Epoch  3/15  SqueezeNet           loss 2.227 (hard 3.130, soft 1.076, feat 0.534)  train 23.78%  test top-1 22.94%  top-5 52.74%
+Epoch  3/15  EfficientNet-Lite0   loss 2.159 (hard 2.954, soft 1.012, feat 0.564)  train 26.85%  test top-1 28.90%  top-5 60.93%
+  epoch time 12.4 min
+Epoch  4/15  MobileNetV2          loss 1.985 (hard 2.682, soft 0.905, feat 0.547)  train 31.92%  test top-1 33.19%  top-5 65.99%
+Epoch  4/15  SqueezeNet           loss 2.022 (hard 2.806, soft 0.951, feat 0.514)  train 29.81%  test top-1 32.14%  top-5 65.10%
+Epoch  4/15  EfficientNet-Lite0   loss 1.949 (hard 2.623, soft 0.877, feat 0.548)  train 33.09%  test top-1 31.29%  top-5 64.21%
+  epoch time 12.0 min
+Epoch  5/15  MobileNetV2          loss 1.815 (hard 2.441, soft 0.799, feat 0.523)  train 37.26%  test top-1 40.18%  top-5 73.72%
+Epoch  5/15  SqueezeNet           loss 1.844 (hard 2.540, soft 0.846, feat 0.490)  train 35.53%  test top-1 36.86%  top-5 70.57%
+Epoch  5/15  EfficientNet-Lite0   loss 1.774 (hard 2.364, soft 0.769, feat 0.526)  train 38.57%  test top-1 40.28%  top-5 74.65%
+  epoch time 12.0 min
+Epoch  6/15  MobileNetV2          loss 1.683 (hard 2.254, soft 0.721, feat 0.502)  train 41.69%  test top-1 42.19%  top-5 74.63%
+Teacher ResNet-50 loaded (test top-1 66.47%), frozen
+KD settings: T = 4.0, alpha = 0.7 (soft) / 0.3 (hard), beta = 1.0 (features)
+MobileNetV2           2,351,972 parameters, hint 96 ch -> adapter -> 1024 ch
+SqueezeNet              779,684 parameters, hint 512 ch -> adapter -> 1024 ch
+EfficientNet-Lite0    3,499,108 parameters, hint 112 ch -> adapter -> 1024 ch
+Resuming kd_mobilenetv2_squeezenet_efficientnet_lite0 after epoch 5
+Epoch  6/15  MobileNetV2          loss 1.683 (hard 2.254, soft 0.721, feat 0.502)  train 41.69%  test top-1 42.19%  top-5 74.63%
+Epoch  6/15  SqueezeNet           loss 1.714 (hard 2.350, soft 0.770, feat 0.470)  train 39.56%  test top-1 36.48%  top-5 67.75%
+Epoch  6/15  EfficientNet-Lite0   loss 1.640 (hard 2.177, soft 0.689, feat 0.505)  train 43.03%  test top-1 40.85%  top-5 72.12%
+  epoch time 11.6 min
+Epoch  7/15  MobileNetV2          loss 1.571 (hard 2.110, soft 0.662, feat 0.475)  train 44.62%  test top-1 44.07%  top-5 76.70%
+Epoch  7/15  SqueezeNet           loss 1.618 (hard 2.219, soft 0.716, feat 0.451)  train 42.93%  test top-1 38.68%  top-5 71.97%
+Epoch  7/15  EfficientNet-Lite0   loss 1.527 (hard 2.031, soft 0.631, feat 0.476)  train 46.27%  test top-1 45.81%  top-5 77.78%
+  epoch time 11.7 min
+Epoch  8/15  MobileNetV2          loss 1.469 (hard 1.972, soft 0.605, feat 0.454)  train 47.83%  test top-1 47.70%  top-5 79.31%
+Epoch  8/15  SqueezeNet           loss 1.524 (hard 2.080, soft 0.662, feat 0.436)  train 45.95%  test top-1 44.27%  top-5 76.68%
+Epoch  8/15  EfficientNet-Lite0   loss 1.426 (hard 1.891, soft 0.577, feat 0.455)  train 49.86%  test top-1 49.57%  top-5 80.42%
+  epoch time 11.9 min
+Epoch  9/15  MobileNetV2          loss 1.392 (hard 1.872, soft 0.562, feat 0.436)  train 50.25%  test top-1 50.90%  top-5 81.43%
+Epoch  9/15  SqueezeNet           loss 1.457 (hard 1.983, soft 0.622, feat 0.427)  train 48.20%  test top-1 46.59%  top-5 78.84%
+Epoch  9/15  EfficientNet-Lite0   loss 1.343 (hard 1.781, soft 0.532, feat 0.436)  train 52.36%  test top-1 50.99%  top-5 81.83%
+  epoch time 12.1 min
+Epoch 10/15  MobileNetV2          loss 1.303 (hard 1.746, soft 0.514, feat 0.419)  train 53.15%  test top-1 52.87%  top-5 83.14%
+Epoch 10/15  SqueezeNet           loss 1.390 (hard 1.884, soft 0.582, feat 0.417)  train 50.64%  test top-1 48.96%  top-5 79.83%
+Epoch 10/15  EfficientNet-Lite0   loss 1.262 (hard 1.668, soft 0.488, feat 0.420)  train 55.24%  test top-1 55.29%  top-5 84.40%
+  epoch time 11.6 min
+Epoch 11/15  MobileNetV2          loss 1.224 (hard 1.627, soft 0.470, feat 0.407)  train 56.33%  test top-1 54.91%  top-5 83.99%
+Epoch 11/15  SqueezeNet           loss 1.318 (hard 1.770, soft 0.539, feat 0.410)  train 53.53%  test top-1 51.87%  top-5 82.32%
+Epoch 11/15  EfficientNet-Lite0   loss 1.177 (hard 1.538, soft 0.443, feat 0.406)  train 58.50%  test top-1 57.67%  top-5 85.05%
+  epoch time 11.6 min
+Epoch 12/15  MobileNetV2          loss 1.139 (hard 1.500, soft 0.422, feat 0.394)  train 59.47%  test top-1 58.41%  top-5 86.06%
+Epoch 12/15  SqueezeNet           loss 1.251 (hard 1.674, soft 0.499, feat 0.399)  train 55.90%  test top-1 54.69%  top-5 84.33%
+Epoch 12/15  EfficientNet-Lite0   loss 1.094 (hard 1.412, soft 0.397, feat 0.392)  train 61.40%  test top-1 60.24%  top-5 87.14%
+  epoch time 11.4 min
+Epoch 13/15  MobileNetV2          loss 1.043 (hard 1.367, soft 0.372, feat 0.373)  train 62.96%  test top-1 60.85%  top-5 87.54%
+Epoch 13/15  SqueezeNet           loss 1.169 (hard 1.560, soft 0.456, feat 0.382)  train 58.61%  test top-1 57.95%  top-5 86.61%
+Epoch 13/15  EfficientNet-Lite0   loss 0.997 (hard 1.272, soft 0.347, feat 0.372)  train 65.24%  test top-1 63.00%  top-5 88.72%
+  epoch time 11.5 min
+Epoch 14/15  MobileNetV2          loss 0.962 (hard 1.218, soft 0.326, feat 0.368)  train 66.93%  test top-1 62.89%  top-5 88.76%
+Epoch 14/15  SqueezeNet           loss 1.104 (hard 1.443, soft 0.416, feat 0.380)  train 61.79%  test top-1 60.50%  top-5 87.48%
+Epoch 14/15  EfficientNet-Lite0   loss 0.915 (hard 1.118, soft 0.303, feat 0.367)  train 69.55%  test top-1 64.80%  top-5 89.38%
+  epoch time 11.7 min
+Epoch 15/15  MobileNetV2          loss 0.906 (hard 1.125, soft 0.296, feat 0.361)  train 69.97%  test top-1 63.51%  top-5 89.09%
+Epoch 15/15  SqueezeNet           loss 1.058 (hard 1.374, soft 0.388, feat 0.374)  train 63.70%  test top-1 60.98%  top-5 87.73%
+Epoch 15/15  EfficientNet-Lite0   loss 0.859 (hard 1.020, soft 0.274, feat 0.361)  train 72.44%  test top-1 65.61%  top-5 89.63%
+  epoch time 11.9 min
+
+MobileNetV2          distilled: top-1 63.51%  top-5 89.09%   saved -> checkpoints/student_mobilenetv2_kd.pth (9.65 MB)
+SqueezeNet           distilled: top-1 60.98%  top-5 87.73%   saved -> checkpoints/student_squeezenet_kd.pth (3.20 MB)
+EfficientNet-Lite0   distilled: top-1 65.61%  top-5 89.63%   saved -> checkpoints/student_efficientnet_lite0_kd.pth (14.27 MB)

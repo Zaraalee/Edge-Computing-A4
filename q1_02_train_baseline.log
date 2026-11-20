@@ -1,0 +1,71 @@
+MobileNetV2           2,351,972 parameters
+SqueezeNet              779,684 parameters
+EfficientNet-Lite0    3,499,108 parameters
+Epoch  1/15  MobileNetV2          loss 4.026  train  7.94%  test top-1 14.51%  top-5 39.78%
+Epoch  1/15  SqueezeNet           loss 4.014  train  7.89%  test top-1 12.79%  top-5 38.10%
+Epoch  1/15  EfficientNet-Lite0   loss 3.964  train  8.62%  test top-1 13.67%  top-5 38.56%
+  epoch time 8.2 min
+Epoch  2/15  MobileNetV2          loss 3.496  train 15.85%  test top-1 19.83%  top-5 48.00%
+Epoch  2/15  SqueezeNet           loss 3.412  train 17.10%  test top-1 18.14%  top-5 45.71%
+Epoch  2/15  EfficientNet-Lite0   loss 3.400  train 17.24%  test top-1 19.94%  top-5 47.92%
+  epoch time 8.4 min
+Epoch  3/15  MobileNetV2          loss 3.176  train 21.01%  test top-1 24.48%  top-5 55.63%
+Epoch  3/15  SqueezeNet           loss 3.096  train 22.62%  test top-1 23.00%  top-5 52.16%
+Epoch  3/15  EfficientNet-Lite0   loss 3.056  train 22.87%  test top-1 25.24%  top-5 57.13%
+  epoch time 8.3 min
+Epoch  4/15  MobileNetV2          loss 2.890  train 25.97%  test top-1 26.74%  top-5 57.81%
+Epoch  4/15  SqueezeNet           loss 2.847  train 27.34%  test top-1 25.03%  top-5 56.74%
+Epoch  4/15  EfficientNet-Lite0   loss 2.752  train 28.45%  test top-1 29.78%  top-5 63.01%
+  epoch time 8.2 min
+Epoch  5/15  MobileNetV2          loss 2.677  train 30.14%  test top-1 29.09%  top-5 60.61%
+Epoch  5/15  SqueezeNet           loss 2.645  train 31.12%  test top-1 29.13%  top-5 61.42%
+Epoch  5/15  EfficientNet-Lite0   loss 2.555  train 31.94%  test top-1 32.28%  top-5 64.94%
+  epoch time 8.2 min
+Epoch  6/15  MobileNetV2          loss 2.502  train 33.43%  test top-1 32.52%  top-5 63.91%
+Epoch  6/15  SqueezeNet           loss 2.486  train 34.39%  test top-1 33.68%  top-5 66.10%
+Epoch  6/15  EfficientNet-Lite0   loss 2.394  train 35.47%  test top-1 38.03%  top-5 72.35%
+  epoch time 8.4 min
+Epoch  7/15  MobileNetV2          loss 2.376  train 36.29%  test top-1 37.69%  top-5 71.08%
+Epoch  7/15  SqueezeNet           loss 2.365  train 37.20%  test top-1 33.54%  top-5 66.36%
+Epoch  7/15  EfficientNet-Lite0   loss 2.258  train 38.67%  test top-1 39.36%  top-5 72.94%
+  epoch time 8.0 min
+Epoch  8/15  MobileNetV2          loss 2.258  train 38.71%  test top-1 39.39%  top-5 73.85%
+Epoch  8/15  SqueezeNet           loss 2.261  train 39.31%  test top-1 38.64%  top-5 71.32%
+Epoch  8/15  EfficientNet-Lite0   loss 2.140  train 41.55%  test top-1 43.22%  top-5 76.36%
+  epoch time 8.2 min
+Epoch  9/15  MobileNetV2          loss 2.160  train 40.90%  test top-1 41.01%  top-5 75.39%
+Epoch  9/15  SqueezeNet           loss 2.167  train 41.31%  test top-1 39.86%  top-5 73.38%
+Epoch  9/15  EfficientNet-Lite0   loss 2.041  train 43.35%  test top-1 44.99%  top-5 77.19%
+  epoch time 8.7 min
+MobileNetV2           2,351,972 parameters
+SqueezeNet              779,684 parameters
+EfficientNet-Lite0    3,499,108 parameters
+Resuming baseline_mobilenetv2_squeezenet_efficientnet_lite0 after epoch 9
+Epoch 10/15  MobileNetV2          loss 2.049  train 43.59%  test top-1 42.36%  top-5 74.68%
+Epoch 10/15  SqueezeNet           loss 2.070  train 43.87%  test top-1 39.28%  top-5 71.72%
+Epoch 10/15  EfficientNet-Lite0   loss 1.940  train 45.73%  test top-1 48.22%  top-5 79.99%
+  epoch time 8.1 min
+Epoch 11/15  MobileNetV2          loss 1.930  train 46.37%  test top-1 47.58%  top-5 79.75%
+Epoch 11/15  SqueezeNet           loss 1.966  train 46.13%  test top-1 44.08%  top-5 76.44%
+Epoch 11/15  EfficientNet-Lite0   loss 1.822  train 48.80%  test top-1 49.30%  top-5 82.09%
+  epoch time 8.0 min
+Epoch 12/15  MobileNetV2          loss 1.802  train 49.49%  test top-1 49.95%  top-5 81.17%
+Epoch 12/15  SqueezeNet           loss 1.846  train 48.94%  test top-1 46.59%  top-5 76.95%
+Epoch 12/15  EfficientNet-Lite0   loss 1.691  train 52.43%  test top-1 54.04%  top-5 83.59%
+  epoch time 8.1 min
+Epoch 13/15  MobileNetV2          loss 1.645  train 53.27%  test top-1 53.92%  top-5 83.39%
+Epoch 13/15  SqueezeNet           loss 1.705  train 52.29%  test top-1 52.49%  top-5 81.77%
+Epoch 13/15  EfficientNet-Lite0   loss 1.529  train 56.12%  test top-1 57.09%  top-5 85.95%
+  epoch time 7.8 min
+Epoch 14/15  MobileNetV2          loss 1.480  train 57.69%  test top-1 57.80%  top-5 85.70%
+Epoch 14/15  SqueezeNet           loss 1.553  train 56.07%  test top-1 54.95%  top-5 84.32%
+Epoch 14/15  EfficientNet-Lite0   loss 1.364  train 60.32%  test top-1 59.82%  top-5 87.43%
+  epoch time 7.9 min
+Epoch 15/15  MobileNetV2          loss 1.363  train 60.76%  test top-1 58.34%  top-5 86.04%
+Epoch 15/15  SqueezeNet           loss 1.446  train 58.97%  test top-1 56.63%  top-5 85.30%
+Epoch 15/15  EfficientNet-Lite0   loss 1.241  train 63.82%  test top-1 60.63%  top-5 88.01%
+  epoch time 8.1 min
+
+MobileNetV2          baseline: top-1 58.34%  top-5 86.04%   saved -> checkpoints/student_mobilenetv2_baseline.pth (9.65 MB)
+SqueezeNet           baseline: top-1 56.63%  top-5 85.30%   saved -> checkpoints/student_squeezenet_baseline.pth (3.20 MB)
+EfficientNet-Lite0   baseline: top-1 60.63%  top-5 88.01%   saved -> checkpoints/student_efficientnet_lite0_baseline.pth (14.27 MB)

@@ -1,0 +1,31 @@
+CIFAR-100: 50000 train / 10000 test images, 100 classes
+Teacher ResNet-50: 23,705,252 parameters, 326.0 M MACs per image
+Epoch  1/20  loss 4.228  train  8.06%  test top-1 14.74%  top-5 39.97%  (11.3 min)
+Epoch  2/20  loss 3.608  train 18.43%  test top-1 19.35%  top-5 47.70%  (11.2 min)
+Epoch  3/20  loss 3.399  train 22.77%  test top-1  9.05%  top-5 25.77%  (11.2 min)
+Epoch  4/20  loss 3.256  train 26.52%  test top-1 30.02%  top-5 61.35%  (11.8 min)
+Epoch  5/20  loss 2.952  train 33.82%  test top-1 32.19%  top-5 63.47%  (11.6 min)
+Epoch  6/20  loss 2.805  train 37.57%  test top-1 37.35%  top-5 69.35%  (11.8 min)
+Epoch  7/20  loss 2.659  train 41.45%  test top-1 41.61%  top-5 73.76%  (11.1 min)
+Epoch  8/20  loss 2.561  train 44.18%  test top-1 42.79%  top-5 74.96%  (11.2 min)
+CIFAR-100: 50000 train / 10000 test images, 100 classes
+Teacher ResNet-50: 23,705,252 parameters, 326.0 M MACs per image
+Resuming teacher after epoch 8
+Epoch  9/20  loss 2.456  train 46.90%  test top-1 41.93%  top-5 72.63%  (12.0 min)
+Epoch 10/20  loss 2.376  train 49.17%  test top-1 45.90%  top-5 76.67%  (11.9 min)
+Epoch 11/20  loss 2.287  train 51.82%  test top-1 49.26%  top-5 80.28%  (11.9 min)
+Epoch 12/20  loss 2.209  train 54.18%  test top-1 51.84%  top-5 80.94%  (11.7 min)
+Epoch 13/20  loss 2.129  train 56.42%  test top-1 55.65%  top-5 83.15%  (11.5 min)
+Epoch 14/20  loss 2.049  train 58.83%  test top-1 55.82%  top-5 83.83%  (11.8 min)
+Epoch 15/20  loss 1.962  train 61.45%  test top-1 56.78%  top-5 84.85%  (11.6 min)
+Epoch 16/20  loss 1.852  train 64.64%  test top-1 59.94%  top-5 86.36%  (11.2 min)
+Epoch 17/20  loss 1.728  train 68.74%  test top-1 62.31%  top-5 87.83%  (11.2 min)
+CIFAR-100: 50000 train / 10000 test images, 100 classes
+Teacher ResNet-50: 23,705,252 parameters, 326.0 M MACs per image
+Resuming teacher after epoch 17
+Epoch 18/20  loss 1.570  train 74.21%  test top-1 64.75%  top-5 88.87%  (12.0 min)
+Epoch 19/20  loss 1.423  train 79.31%  test top-1 66.36%  top-5 89.62%  (11.7 min)
+Epoch 20/20  loss 1.337  train 82.72%  test top-1 66.47%  top-5 89.76%  (11.3 min)
+
+Final teacher accuracy: top-1 66.47%  top-5 89.76%
+Saved -> checkpoints/teacher_resnet50.pth  (95.1 MB)

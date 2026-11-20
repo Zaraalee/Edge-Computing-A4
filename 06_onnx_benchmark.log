@@ -1,0 +1,18 @@
+{'onnx_model': 'mobilenetv2_baseline', 'dataset': 'cifar100', 'top1_acc_%': 58.34, 'top5_acc_%': 86.04, 'size_MB': 9.38, 'latency_1img_ms': 0.858, 'throughput_img_per_s': 1280.2}
+{'onnx_model': 'mobilenetv2_kd', 'dataset': 'cifar100', 'top1_acc_%': 63.51, 'top5_acc_%': 89.09, 'size_MB': 9.38, 'latency_1img_ms': 0.85, 'throughput_img_per_s': 1290.8}
+{'onnx_model': 'squeezenet_baseline', 'dataset': 'cifar100', 'top1_acc_%': 56.63, 'top5_acc_%': 85.3, 'size_MB': 3.11, 'latency_1img_ms': 0.476, 'throughput_img_per_s': 2052.1}
+{'onnx_model': 'squeezenet_kd', 'dataset': 'cifar100', 'top1_acc_%': 60.98, 'top5_acc_%': 87.73, 'size_MB': 3.11, 'latency_1img_ms': 0.504, 'throughput_img_per_s': 2004.6}
+{'onnx_model': 'efficientnet_lite0_baseline', 'dataset': 'cifar100', 'top1_acc_%': 60.63, 'top5_acc_%': 88.01, 'size_MB': 13.95, 'latency_1img_ms': 1.298, 'throughput_img_per_s': 1070.0}
+{'onnx_model': 'efficientnet_lite0_kd', 'dataset': 'cifar100', 'top1_acc_%': 65.61, 'top5_acc_%': 89.63, 'size_MB': 13.95, 'latency_1img_ms': 1.105, 'throughput_img_per_s': 1042.1}
+{'onnx_model': 'nas_best', 'dataset': 'cifar10', 'top1_acc_%': 83.07, 'top5_acc_%': 99.18, 'size_MB': 0.12, 'latency_1img_ms': 0.115, 'throughput_img_per_s': 6339.3}
+
+                 onnx_model  dataset  top1_acc_%  top5_acc_%  size_MB  latency_1img_ms  throughput_img_per_s
+       mobilenetv2_baseline cifar100       58.34       86.04     9.38            0.858                1280.2
+             mobilenetv2_kd cifar100       63.51       89.09     9.38            0.850                1290.8
+        squeezenet_baseline cifar100       56.63       85.30     3.11            0.476                2052.1
+              squeezenet_kd cifar100       60.98       87.73     3.11            0.504                2004.6
+efficientnet_lite0_baseline cifar100       60.63       88.01    13.95            1.298                1070.0
+      efficientnet_lite0_kd cifar100       65.61       89.63    13.95            1.105                1042.1
+                   nas_best  cifar10       83.07       99.18     0.12            0.115                6339.3
+
+Saved results/onnx_benchmark.csv

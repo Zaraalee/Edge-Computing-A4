@@ -1,0 +1,37 @@
+Best architecture from the search (#57, val acc 56.42% after the short search training):
+  input 32x32, activation relu6; stage 1: 1 x dsconv 3x3, 32 ch; stage 2: 1 x dsconv 7x7, 64 ch; stage 3: 3 x dsconv 7x7, 64 ch
+Epoch  1/30  loss 1.624  train 39.10%  test 51.51%  (35s)
+Epoch  2/30  loss 1.175  train 57.82%  test 61.15%  (35s)
+Epoch  3/30  loss 1.030  train 63.31%  test 62.99%  (34s)
+Epoch  4/30  loss 0.935  train 66.78%  test 66.67%  (33s)
+Epoch  5/30  loss 0.872  train 69.33%  test 61.00%  (33s)
+Epoch  6/30  loss 0.833  train 70.58%  test 70.11%  (33s)
+Epoch  7/30  loss 0.809  train 71.58%  test 71.65%  (35s)
+Epoch  8/30  loss 0.775  train 72.71%  test 62.04%  (35s)
+Epoch  9/30  loss 0.760  train 73.29%  test 70.50%  (34s)
+Epoch 10/30  loss 0.743  train 73.98%  test 71.26%  (35s)
+Epoch 11/30  loss 0.734  train 74.36%  test 72.29%  (34s)
+Epoch 12/30  loss 0.716  train 75.03%  test 72.91%  (34s)
+Epoch 13/30  loss 0.706  train 75.35%  test 68.51%  (35s)
+Epoch 14/30  loss 0.700  train 75.56%  test 75.76%  (35s)
+Epoch 15/30  loss 0.688  train 75.90%  test 72.20%  (37s)
+Epoch 16/30  loss 0.687  train 75.90%  test 74.47%  (35s)
+Epoch 17/30  loss 0.676  train 76.46%  test 66.98%  (37s)
+Epoch 18/30  loss 0.664  train 76.85%  test 75.10%  (39s)
+Epoch 19/30  loss 0.648  train 77.43%  test 76.12%  (35s)
+Epoch 20/30  loss 0.640  train 77.68%  test 76.96%  (37s)
+Epoch 21/30  loss 0.623  train 78.19%  test 76.77%  (36s)
+Epoch 22/30  loss 0.613  train 78.77%  test 77.01%  (35s)
+Epoch 23/30  loss 0.595  train 79.34%  test 78.57%  (36s)
+Epoch 24/30  loss 0.575  train 79.84%  test 78.93%  (38s)
+Epoch 25/30  loss 0.556  train 80.57%  test 79.71%  (38s)
+Epoch 26/30  loss 0.531  train 81.44%  test 82.04%  (36s)
+Epoch 27/30  loss 0.509  train 82.26%  test 82.56%  (40s)
+Epoch 28/30  loss 0.483  train 83.03%  test 82.52%  (38s)
+Epoch 29/30  loss 0.463  train 83.88%  test 82.65%  (38s)
+Epoch 30/30  loss 0.454  train 84.18%  test 83.07%  (38s)
+
+Final test accuracy (CIFAR-10, 10,000 images): 83.07%
+Hardware: latency 0.79 ms (1 image, 1 thread), size 0.139 MB, 28,138 params, 3.43 M MACs, peak memory (est.) 0.38 MB
+Constraints {'max_latency_ms': 1.5, 'max_size_mb': 1.0}: satisfied
+Saved -> checkpoints/nas_best_model.pth (0.141 MB)

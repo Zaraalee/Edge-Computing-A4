@@ -1,0 +1,12 @@
+ONNX Runtime 1.29.0 | model: nas_best.onnx | provider: CPU | dataset: cifar10
+     test[0] | true: airplane       | predicted: airplane       | top-3: airplane 74.3%, ship 20.9%, bird 2.5%
+  test[2000] | true: bird           | predicted: bird           | top-3: bird 41.6%, cat 28.4%, dog 8.6%
+  test[4000] | true: deer           | predicted: deer           | top-3: deer 97.5%, airplane 1.2%, bird 0.9%
+  test[6000] | true: frog           | predicted: frog           | top-3: frog 94.7%, bird 2.4%, deer 1.8%
+  test[8000] | true: ship           | predicted: automobile     | top-3: automobile 56.9%, ship 42.9%, airplane 0.3%
+ONNX Runtime 1.29.0 | model: efficientnet_lite0_kd.onnx | provider: CPU | dataset: cifar100
+     test[0] | true: mountain       | predicted: train          | top-3: train 28.4%, man 10.2%, seal 3.7%
+  test[2000] | true: tulip          | predicted: tulip          | top-3: tulip 54.8%, sweet_pepper 16.1%, orchid 4.3%
+  test[4000] | true: sea            | predicted: sea            | top-3: sea 74.3%, plain 3.8%, rocket 1.7%
+  test[6000] | true: elephant       | predicted: elephant       | top-3: elephant 84.5%, camel 4.5%, bear 2.4%
+  test[8000] | true: spider         | predicted: bee            | top-3: bee 30.9%, spider 27.3%, caterpillar 9.8%

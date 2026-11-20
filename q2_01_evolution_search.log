@@ -1,0 +1,64 @@
+Search space: 2,519,424 architectures | constraints: latency <= 1.5 ms, size <= 1.0 MB | population 10, tournament 4, 40 trained candidates, 3 epochs on 10000 images each
+[  0] gen  0  r40-silu-d1x24k7-d2x48k5-c3x64k7               lat 1.67 ms  size 2.265 MB  mem 2.55 MB  -> REJECTED: latency 1.67 ms > 1.5 ms; size 2.26 MB > 1.0 MB
+[  1] gen  0  r32-relu6-c1x32k5-c2x32k7-c3x96k5              lat 1.68 ms  size 2.630 MB  mem 2.87 MB  -> REJECTED: latency 1.68 ms > 1.5 ms; size 2.63 MB > 1.0 MB
+[  2] gen  0  r32-silu-c2x32k7-d3x48k5-c1x128k3              lat 1.82 ms  size 0.595 MB  mem 0.83 MB  -> REJECTED: latency 1.82 ms > 1.5 ms
+[  3] gen  0  r40-relu-c3x24k5-c3x48k7-c1x128k3              lat 3.20 ms  size 1.533 MB  mem 1.82 MB  -> REJECTED: latency 3.20 ms > 1.5 ms; size 1.53 MB > 1.0 MB
+[  4] gen  0  r24-silu-d1x16k5-d1x48k7-d3x64k7               lat 0.58 ms  size 0.123 MB  mem 0.17 MB  -> val acc 51.24%  (10.4s)
+[  5] gen  0  r24-hardswish-d2x16k7-d2x64k3-c1x64k3          lat 0.65 ms  size 0.209 MB  mem 0.26 MB  -> val acc 42.66%  (13.2s)
+[  6] gen  0  r32-silu-c1x16k7-d1x32k3-c3x128k5              lat 1.86 ms  size 3.768 MB  mem 3.88 MB  -> REJECTED: latency 1.86 ms > 1.5 ms; size 3.77 MB > 1.0 MB
+[  7] gen  0  r24-silu-d3x24k5-d3x64k7-c1x96k7               lat 1.23 ms  size 1.328 MB  mem 1.41 MB  -> REJECTED: size 1.33 MB > 1.0 MB
+[  8] gen  0  r40-hardswish-d1x16k3-d1x64k3-c1x96k5          lat 0.87 ms  size 0.642 MB  mem 0.83 MB  -> val acc 45.20%  (23.5s)
+[  9] gen  0  r16-relu6-c3x16k3-c1x32k7-d3x128k3             lat 0.71 ms  size 0.327 MB  mem 0.33 MB  -> val acc 45.88%  (8.0s)
+[ 10] gen  0  r16-hardswish-c1x16k7-c1x32k7-c2x64k7          lat 0.70 ms  size 1.373 MB  mem 1.39 MB  -> REJECTED: size 1.37 MB > 1.0 MB
+[ 11] gen  0  r16-silu-c3x16k5-d1x32k7-c2x96k3               lat 0.58 ms  size 0.551 MB  mem 0.56 MB  -> val acc 45.58%  (8.0s)
+[ 12] gen  0  r40-relu-d3x16k7-d1x48k5-c3x64k7               lat 1.83 ms  size 2.259 MB  mem 2.44 MB  -> REJECTED: latency 1.83 ms > 1.5 ms; size 2.26 MB > 1.0 MB
+[ 13] gen  0  r16-relu6-d1x24k7-c1x64k5-d1x96k7              lat 0.42 ms  size 0.218 MB  mem 0.25 MB  -> val acc 48.68%  (6.7s)
+[ 14] gen  0  r32-hardswish-c2x32k5-d3x64k3-c3x64k5          lat 1.70 ms  size 1.468 MB  mem 1.70 MB  -> REJECTED: latency 1.70 ms > 1.5 ms; size 1.47 MB > 1.0 MB
+[ 15] gen  0  r32-relu6-d1x24k5-c3x48k7-d3x96k5              lat 1.84 ms  size 1.290 MB  mem 1.46 MB  -> REJECTED: latency 1.84 ms > 1.5 ms; size 1.29 MB > 1.0 MB
+[ 16] gen  0  r16-relu-d3x16k7-d1x32k3-d2x128k7              lat 0.68 ms  size 0.171 MB  mem 0.17 MB  -> val acc 41.48%  (8.6s)
+[ 17] gen  0  r16-silu-c3x32k5-d1x48k3-d3x64k5               lat 0.95 ms  size 0.363 MB  mem 0.40 MB  -> val acc 45.48%  (14.5s)
+[ 18] gen  0  r16-relu-d2x24k5-c1x48k3-d3x64k3               lat 0.60 ms  size 0.137 MB  mem 0.16 MB  -> val acc 44.58%  (7.6s)
+[ 19] gen  0  r40-hardswish-c1x16k3-c3x64k7-c1x64k7          lat 3.17 ms  size 2.640 MB  mem 2.83 MB  -> REJECTED: latency 3.17 ms > 1.5 ms; size 2.64 MB > 1.0 MB
+[ 20] gen  0  r32-hardswish-d3x16k3-c2x64k3-d2x96k3          lat 1.06 ms  size 0.298 MB  mem 0.40 MB  -> val acc 44.88%  (28.6s)
+[ 21] gen  1  r24-relu6-d1x16k5-d1x48k7-d3x64k7              lat 0.67 ms  size 0.123 MB  mem 0.17 MB  -> val acc 51.40%  (11.9s)
+[ 22] gen  2  r24-relu6-d1x16k5-c1x48k7-d3x64k7              lat 1.85 ms  size 0.265 MB  mem 0.31 MB  -> REJECTED: latency 1.85 ms > 1.5 ms
+[ 23] gen  1  r16-relu6-c3x16k3-c1x32k7-d3x96k3              lat 1.54 ms  size 0.260 MB  mem 0.27 MB  -> REJECTED: latency 1.54 ms > 1.5 ms
+[ 24] gen  1  r16-relu6-c3x16k3-c3x32k7-d3x128k3             lat 1.93 ms  size 0.734 MB  mem 0.73 MB  -> REJECTED: latency 1.93 ms > 1.5 ms
+[ 25] gen  1  r40-hardswish-d2x16k3-d1x64k3-c1x96k5          lat 2.01 ms  size 0.648 MB  mem 0.83 MB  -> REJECTED: latency 2.01 ms > 1.5 ms
+[ 26] gen  2  r24-relu6-d1x16k7-d1x48k7-d3x64k7              lat 1.11 ms  size 0.124 MB  mem 0.17 MB  -> val acc 49.66%  (14.0s)
+[ 27] gen  1  r16-relu6-d2x24k7-c1x64k5-d1x96k7              lat 0.56 ms  size 0.229 MB  mem 0.26 MB  -> val acc 48.26%  (11.3s)
+[ 28] gen  1  r16-relu6-d1x16k7-c1x64k5-d1x96k7              lat 0.88 ms  size 0.166 MB  mem 0.18 MB  -> val acc 48.04%  (6.6s)
+[ 29] gen  3  r24-relu6-d3x16k7-d1x48k7-d3x64k7              lat 1.53 ms  size 0.141 MB  mem 0.18 MB  -> REJECTED: latency 1.53 ms > 1.5 ms
+[ 30] gen  2  r24-relu6-d1x16k5-d2x48k7-d3x64k7              lat 1.05 ms  size 0.147 MB  mem 0.19 MB  -> val acc 47.02%  (15.7s)
+[ 31] gen  3  r16-relu6-d1x16k7-d1x48k7-d3x64k7              lat 0.59 ms  size 0.124 MB  mem 0.13 MB  -> val acc 46.14%  (5.9s)
+[ 32] gen  2  r32-relu6-d2x24k7-c1x64k5-d1x96k7              lat 0.86 ms  size 0.229 MB  mem 0.41 MB  -> val acc 51.80%  (40.0s)
+[ 33] gen  3  r32-relu6-d2x24k7-c1x64k5-d1x64k7              lat 1.51 ms  size 0.219 MB  mem 0.40 MB  -> REJECTED: latency 1.51 ms > 1.5 ms
+[ 34] gen  2  r16-relu6-d2x24k7-c1x64k5-d2x96k7              lat 1.13 ms  size 0.292 MB  mem 0.32 MB  -> val acc 49.10%  (11.9s)
+[ 35] gen  3  r40-relu6-d1x16k7-d1x48k7-d3x64k7              lat 0.97 ms  size 0.124 MB  mem 0.30 MB  -> val acc 52.48%  (29.0s)
+[ 36] gen  3  r32-relu6-c2x24k7-c1x64k5-d1x96k7              lat 1.61 ms  size 0.402 MB  mem 0.58 MB  -> REJECTED: latency 1.61 ms > 1.5 ms
+[ 37] gen  4  r40-relu6-d1x16k7-d1x64k7-d3x64k7              lat 1.02 ms  size 0.133 MB  mem 0.31 MB  -> val acc 51.30%  (30.7s)
+[ 38] gen  4  r40-relu6-d1x32k7-d1x48k7-d3x64k7              lat 0.85 ms  size 0.132 MB  mem 0.52 MB  -> val acc 51.92%  (33.8s)
+[ 39] gen  4  r40-relu6-d1x16k7-d3x48k7-d3x64k7              lat 1.19 ms  size 0.172 MB  mem 0.34 MB  -> val acc 51.50%  (46.6s)
+[ 40] gen  5  r40-relu6-d1x32k7-d1x48k7-d2x64k7              lat 0.70 ms  size 0.097 MB  mem 0.48 MB  -> val acc 51.52%  (32.2s)
+[ 41] gen  4  r40-relu6-d1x16k7-d1x48k7-d1x64k7              lat 0.59 ms  size 0.054 MB  mem 0.24 MB  -> val acc 46.40%  (24.4s)
+[ 42] gen  4  r32-relu6-d1x16k7-d1x48k7-d3x64k7              lat 0.74 ms  size 0.124 MB  mem 0.23 MB  -> val acc 52.84%  (18.4s)
+[ 43] gen  5  r40-relu-d1x32k7-d1x48k7-d3x64k7               lat 0.87 ms  size 0.132 MB  mem 0.52 MB  -> val acc 50.66%  (30.7s)
+[ 44] gen  5  r40-relu6-d1x32k3-d1x48k7-d3x64k7              lat 0.80 ms  size 0.129 MB  mem 0.51 MB  -> val acc 52.50%  (30.3s)
+[ 45] gen  5  r32-hardswish-d1x16k7-d1x48k7-d3x64k7          lat 0.75 ms  size 0.124 MB  mem 0.23 MB  -> val acc 51.24%  (18.6s)
+[ 46] gen  5  r32-relu6-d1x16k7-d1x48k7-d3x96k7              lat 0.76 ms  size 0.188 MB  mem 0.29 MB  -> val acc 52.06%  (19.5s)
+[ 47] gen  6  r40-relu6-d1x32k3-d1x48k7-d3x64k5              lat 0.82 ms  size 0.113 MB  mem 0.50 MB  -> val acc 52.16%  (27.8s)
+[ 48] gen  6  r40-relu6-d1x32k3-d3x48k7-d3x64k7              lat 1.26 ms  size 0.177 MB  mem 0.55 MB  -> val acc 52.58%  (45.6s)
+[ 49] gen  7  r40-relu6-c1x32k3-d3x48k7-d3x64k7              lat 1.14 ms  size 0.191 MB  mem 0.57 MB  -> val acc 49.76%  (47.0s)
+[ 50] gen  6  r40-relu6-d1x32k3-d1x32k7-d3x64k7              lat 0.82 ms  size 0.120 MB  mem 0.50 MB  -> val acc 53.42%  (31.6s)
+[ 51] gen  5  r32-relu6-d1x16k7-d2x48k7-d3x64k7              lat 0.89 ms  size 0.148 MB  mem 0.25 MB  -> val acc 51.14%  (29.9s)
+[ 52] gen  7  r16-relu6-d1x32k3-d3x48k7-d3x64k7              lat 0.83 ms  size 0.177 MB  mem 0.21 MB  -> val acc 45.28%  (8.9s)
+[ 53] gen  7  r40-relu6-d1x32k3-d1x32k7-d3x64k3              lat 0.83 ms  size 0.094 MB  mem 0.48 MB  -> val acc 45.20%  (27.1s)
+[ 54] gen  6  r32-hardswish-d1x16k7-d1x32k7-d3x64k7          lat 0.74 ms  size 0.115 MB  mem 0.22 MB  -> val acc 49.44%  (18.4s)
+[ 55] gen  7  r32-relu6-d1x32k3-d1x32k7-d3x64k7              lat 0.74 ms  size 0.120 MB  mem 0.36 MB  -> val acc 55.56%  (19.6s)
+[ 56] gen  8  r32-relu6-d1x32k3-d1x32k7-d1x64k7              lat 0.51 ms  size 0.050 MB  mem 0.30 MB  -> val acc 49.86%  (15.0s)
+[ 57] gen  8  r32-relu6-d1x32k3-d1x64k7-d3x64k7              lat 0.75 ms  size 0.139 MB  mem 0.38 MB  -> val acc 56.42%  (21.0s)
+
+Searched 58 architectures: 40 trained, 18 rejected by the hardware constraints
+Best: #57 r32-relu6-d1x32k3-d1x64k7-d3x64k7  val acc 56.42%  latency 0.75 ms  size 0.139 MB
+      input 32x32, activation relu6; stage 1: 1 x dsconv 3x3, 32 ch; stage 2: 1 x dsconv 7x7, 64 ch; stage 3: 3 x dsconv 7x7, 64 ch
+Saved results/nas_best_config.json, results/nas_search_history.csv, results/nas_search_history.json

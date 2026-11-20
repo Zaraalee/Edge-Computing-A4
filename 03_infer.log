@@ -1,0 +1,42 @@
+=== MobileNetV2 (baseline)  [mobilenetv2_baseline]  (cifar100, input 32x32) ===
+       test[0] | true: mountain       | predicted: road           wrong   | top-3: road 34.0%, train 10.8%, bridge 9.6%
+    test[2000] | true: tulip          | predicted: sweet_pepper   wrong   | top-3: sweet_pepper 67.1%, tulip 25.1%, apple 1.2%
+    test[4000] | true: sea            | predicted: sea            correct | top-3: sea 20.0%, rocket 18.4%, seal 12.2%
+    test[6000] | true: elephant       | predicted: elephant       correct | top-3: elephant 60.5%, bear 8.7%, camel 8.2%
+    test[8000] | true: spider         | predicted: caterpillar    wrong   | top-3: caterpillar 46.8%, bee 22.1%, spider 11.8%
+=== MobileNetV2 (distilled)  [mobilenetv2_kd]  (cifar100, input 32x32) ===
+       test[0] | true: mountain       | predicted: road           wrong   | top-3: road 14.0%, train 12.5%, spider 8.1%
+    test[2000] | true: tulip          | predicted: sweet_pepper   wrong   | top-3: sweet_pepper 53.1%, tulip 25.2%, apple 8.3%
+    test[4000] | true: sea            | predicted: sea            correct | top-3: sea 63.5%, rocket 3.2%, plain 2.9%
+    test[6000] | true: elephant       | predicted: elephant       correct | top-3: elephant 72.8%, camel 6.9%, bear 5.6%
+    test[8000] | true: spider         | predicted: bee            wrong   | top-3: bee 47.8%, spider 17.6%, caterpillar 6.6%
+=== SqueezeNet (baseline)  [squeezenet_baseline]  (cifar100, input 32x32) ===
+       test[0] | true: mountain       | predicted: road           wrong   | top-3: road 31.1%, train 16.6%, man 9.4%
+    test[2000] | true: tulip          | predicted: sweet_pepper   wrong   | top-3: sweet_pepper 40.4%, tulip 32.6%, apple 13.4%
+    test[4000] | true: sea            | predicted: sea            correct | top-3: sea 64.3%, whale 5.1%, rocket 4.1%
+    test[6000] | true: elephant       | predicted: bear           wrong   | top-3: bear 37.1%, elephant 26.8%, chimpanzee 9.1%
+    test[8000] | true: spider         | predicted: bee            wrong   | top-3: bee 51.7%, caterpillar 18.0%, spider 16.6%
+=== SqueezeNet (distilled)  [squeezenet_kd]  (cifar100, input 32x32) ===
+       test[0] | true: mountain       | predicted: road           wrong   | top-3: road 31.2%, train 10.6%, man 3.9%
+    test[2000] | true: tulip          | predicted: tulip          correct | top-3: tulip 43.0%, sweet_pepper 27.1%, poppy 7.2%
+    test[4000] | true: sea            | predicted: sea            correct | top-3: sea 58.6%, seal 2.9%, man 2.8%
+    test[6000] | true: elephant       | predicted: bear           wrong   | top-3: bear 21.8%, possum 16.8%, elephant 10.2%
+    test[8000] | true: spider         | predicted: bee            wrong   | top-3: bee 65.9%, spider 10.8%, caterpillar 8.1%
+=== EfficientNet-Lite0 (baseline)  [efficientnet_lite0_baseline]  (cifar100, input 32x32) ===
+       test[0] | true: mountain       | predicted: road           wrong   | top-3: road 40.3%, bridge 36.2%, sea 5.4%
+    test[2000] | true: tulip          | predicted: sweet_pepper   wrong   | top-3: sweet_pepper 48.6%, tulip 29.6%, butterfly 6.7%
+    test[4000] | true: sea            | predicted: sea            correct | top-3: sea 75.5%, rocket 5.6%, cloud 3.3%
+    test[6000] | true: elephant       | predicted: elephant       correct | top-3: elephant 80.2%, camel 12.7%, bear 2.9%
+    test[8000] | true: spider         | predicted: bee            wrong   | top-3: bee 47.2%, caterpillar 20.1%, butterfly 10.4%
+=== EfficientNet-Lite0 (distilled)  [efficientnet_lite0_kd]  (cifar100, input 32x32) ===
+       test[0] | true: mountain       | predicted: train          wrong   | top-3: train 28.4%, man 10.2%, seal 3.7%
+    test[2000] | true: tulip          | predicted: tulip          correct | top-3: tulip 54.8%, sweet_pepper 16.1%, orchid 4.3%
+    test[4000] | true: sea            | predicted: sea            correct | top-3: sea 74.3%, plain 3.8%, rocket 1.7%
+    test[6000] | true: elephant       | predicted: elephant       correct | top-3: elephant 84.5%, camel 4.5%, bear 2.4%
+    test[8000] | true: spider         | predicted: bee            wrong   | top-3: bee 30.9%, spider 27.3%, caterpillar 9.8%
+=== NAS best architecture  [nas_best]  (cifar10, input 32x32) ===
+       test[0] | true: airplane       | predicted: airplane       correct | top-3: airplane 74.3%, ship 20.9%, bird 2.5%
+    test[2000] | true: bird           | predicted: bird           correct | top-3: bird 41.6%, cat 28.4%, dog 8.6%
+    test[4000] | true: deer           | predicted: deer           correct | top-3: deer 97.5%, airplane 1.2%, bird 0.9%
+    test[6000] | true: frog           | predicted: frog           correct | top-3: frog 94.7%, bird 2.4%, deer 1.8%
+    test[8000] | true: ship           | predicted: automobile     wrong   | top-3: automobile 56.9%, ship 42.9%, airplane 0.3%

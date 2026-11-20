@@ -1,0 +1,28 @@
+Search space size: 2,519,424 architectures
+r40-silu-d1x24k7-d2x48k5-c3x64k7 -> (2, 10) 560,274 params
+r32-relu6-c1x32k5-c2x32k7-c3x96k5 -> (2, 10) 652,954 params
+r32-silu-c2x32k7-d3x48k5-c1x128k3 -> (2, 10) 142,586 params
+{
+ "resolution": 32,
+ "activation": "silu",
+ "stages": [
+  {
+   "depth": 2,
+   "channels": 32,
+   "kernel": 7,
+   "block": "conv"
+  },
+  {
+   "depth": 3,
+   "channels": 48,
+   "kernel": 5,
+   "block": "dsconv"
+  },
+  {
+   "depth": 1,
+   "channels": 128,
+   "kernel": 3,
+   "block": "conv"
+  }
+ ]
+}
