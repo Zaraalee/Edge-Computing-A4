@@ -1,0 +1,9 @@
+model,title,dataset,input_res,mode,top1_acc_%,top5_acc_%,params,MACs_M,size_MB,latency_1img_ms,throughput_img_per_s,peak_mem_measured_MB,peak_mem_estimated_MB
+teacher,ResNet-50 teacher,cifar100,32,teacher,66.47,89.76,23705252,326.0,95.14,19.108,208.5,12.11,95.35
+mobilenetv2_baseline,MobileNetV2 (baseline),cifar100,32,baseline,58.34,86.04,2351972,24.6,9.65,4.15,1296.9,10.8,10.19
+mobilenetv2_kd,MobileNetV2 (distilled),cifar100,32,kd,63.51,89.09,2351972,24.6,9.65,4.023,1210.4,10.8,10.19
+squeezenet_baseline,SqueezeNet (baseline),cifar100,32,baseline,56.63,85.3,779684,24.2,3.2,2.383,1962.0,4.82,3.64
+squeezenet_kd,SqueezeNet (distilled),cifar100,32,kd,60.98,87.73,779684,24.2,3.2,2.313,1983.9,4.82,3.64
+efficientnet_lite0_baseline,EfficientNet-Lite0 (baseline),cifar100,32,baseline,60.63,88.01,3499108,31.5,14.27,4.44,1049.9,10.83,14.78
+efficientnet_lite0_kd,EfficientNet-Lite0 (distilled),cifar100,32,kd,65.61,89.63,3499108,31.5,14.27,4.65,1024.0,10.83,14.78
+nas_best,NAS best architecture,cifar10,32,nas,83.07,99.18,28138,3.4,0.14,0.912,6787.4,10.89,0.37

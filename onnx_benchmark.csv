@@ -1,0 +1,8 @@
+onnx_model,dataset,top1_acc_%,top5_acc_%,size_MB,latency_1img_ms,throughput_img_per_s
+mobilenetv2_baseline,cifar100,58.34,86.04,9.38,0.858,1280.2
+mobilenetv2_kd,cifar100,63.51,89.09,9.38,0.85,1290.8
+squeezenet_baseline,cifar100,56.63,85.3,3.11,0.476,2052.1
+squeezenet_kd,cifar100,60.98,87.73,3.11,0.504,2004.6
+efficientnet_lite0_baseline,cifar100,60.63,88.01,13.95,1.298,1070.0
+efficientnet_lite0_kd,cifar100,65.61,89.63,13.95,1.105,1042.1
+nas_best,cifar10,83.07,99.18,0.12,0.115,6339.3

@@ -1,0 +1,37 @@
+{
+ "id": 57,
+ "arch": "r32-relu6-d1x32k3-d1x64k7-d3x64k7",
+ "val_acc": 56.42,
+ "latency_ms": 0.747,
+ "size_MB": 0.1392,
+ "params": 28138,
+ "MACs_M": 3.43,
+ "constraints": {
+  "max_latency_ms": 1.5,
+  "max_size_mb": 1.0
+ },
+ "config": {
+  "resolution": 32,
+  "activation": "relu6",
+  "stages": [
+   {
+    "depth": 1,
+    "channels": 32,
+    "kernel": 3,
+    "block": "dsconv"
+   },
+   {
+    "depth": 1,
+    "channels": 64,
+    "kernel": 7,
+    "block": "dsconv"
+   },
+   {
+    "depth": 3,
+    "channels": 64,
+    "kernel": 7,
+    "block": "dsconv"
+   }
+  ]
+ }
+}

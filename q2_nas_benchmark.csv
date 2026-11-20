@@ -1,0 +1,2 @@
+model,title,dataset,input_res,mode,top1_acc_%,top5_acc_%,params,MACs_M,size_MB,latency_1img_ms,throughput_img_per_s,peak_mem_measured_MB,peak_mem_estimated_MB
+nas_best,NAS best architecture,cifar10,32,nas,83.07,99.18,28138,3.4,0.14,0.912,6787.4,10.89,0.37
